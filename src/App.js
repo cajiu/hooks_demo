@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Test1 from './test1'
+import Test2 from './test2'
+import Test3 from './test3'
+import Test4 from './test4'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Test1></Test1>*/}
+      {/*<Test2></Test2>*/}
+      <Test3></Test3>
+      <Test4></Test4>
     </div>
   );
 }
